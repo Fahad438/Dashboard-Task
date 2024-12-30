@@ -1,11 +1,9 @@
 import React from "react";
 import { Stack } from "@mui/material";
 import { Widgets } from "./Widgets";
-import { TempleHinduRounded } from "@mui/icons-material";
 import ThermostatAutoIcon from "@mui/icons-material/ThermostatAuto";
 import CheckIcon from "@mui/icons-material/Check";
 import { useTranslation } from "react-i18next"; // استيراد useTranslation
-import SignalWifi4BarIcon from "@mui/icons-material/SignalWifi4Bar";
 import MailIcon from "@mui/icons-material/Mail";
 
 //mock data

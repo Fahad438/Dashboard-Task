@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { Box, Paper, Grid, Typography } from "@mui/material";
+import { Paper, Typography } from "@mui/material";
 import React from "react";
 import { styled } from "@mui/system";
 

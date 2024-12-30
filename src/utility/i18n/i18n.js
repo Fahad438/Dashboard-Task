@@ -12,10 +12,7 @@ const resources = {
             { key: "Products", label: "Products", icon: "Products" },
             { key: "Settings", label: "Settings", icon: "Settings" }
           ],
-          "TurnOnDevice": "Turn on the device",
-          "TurnOffDevice": "Turn off the device",
-          "TurnOnFans": "Turn on the fans",
-          "TurnOffFans": "Turn off the fans"
+         
         }
       },
       ar: {
@@ -27,10 +24,7 @@ const resources = {
             { key: "Products", label: "المنتجات", icon: "Products" },
             { key: "Settings", label: "الإعدادات", icon: "Settings" }
           ],
-          "TurnOnDevice": "تشغيل الجهاز",
-          "TurnOffDevice": "إيقاف الجهاز",
-          "TurnOnFans": "تشغيل المراوح",
-          "TurnOffFans": "إيقاف المراوح"
+        
         }
       }
     };

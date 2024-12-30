@@ -2,18 +2,13 @@ import * as React from "react";
 import { styled, ThemeProvider } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import CssBaseline from "@mui/material/CssBaseline";
-
 import { Header } from "./components/Header";
 import { Sidebar } from "./components/Sidebar";
-
 import { lightTheme, darkTheme } from "./theme/theme";
 import { useThemeMode } from "./theme/ThemeContext";
-import Graph from "./components/Graph";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next"; // استيراد useTranslation
 import { Listwidgets } from "./components/Listwidgets";
-import { Widgets } from "./components/Widgets";
-import { Stack } from "@mui/material";
 import { Row1 } from "./components/Row1";
 
 export default function App() {

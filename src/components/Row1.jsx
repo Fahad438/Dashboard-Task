@@ -1,13 +1,12 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Stack } from "@mui/material";
 import Graph from "./Graph";
 import { Widgets } from "./Widgets";
-import ThermostatAutoIcon from "@mui/icons-material/ThermostatAuto";
-import CheckIcon from "@mui/icons-material/Check";
 import { useTranslation } from "react-i18next"; // استيراد useTranslation
 import BatteryChargingFullIcon from "@mui/icons-material/BatteryChargingFull";
 import DataUsageIcon from "@mui/icons-material/DataUsage";
 import PeopleIcon from "@mui/icons-material/People";
+//mock data
 const List = [
   {
     id: 1,

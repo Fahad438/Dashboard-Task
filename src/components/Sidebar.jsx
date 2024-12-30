@@ -77,10 +77,8 @@ export const Sidebar = ({ handleDrawerClose, open }) => {
     }
   }, [i18n]);
 
-  // جلب العناصر من الترجمة
   const sidebarItems = t("Sidebar", { returnObjects: true });
 
-  // تخصيص الأيقونات بناءً على المفتاح من الترجمة
   const getIcon = (iconName) => {
     switch (iconName) {
       case "Home":
